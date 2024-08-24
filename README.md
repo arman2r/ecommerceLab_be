@@ -35,7 +35,15 @@ Esta aplicación está desarrollada en .NET Core 8 y proporciona una API REST co
    git clone https://github.com/arman2r/ecommerceLab_front.git
 2. **Restaurar Nuggets**
 
--- **En Visual Studio:** Asegurate de restaurar los nuggets necesarios para soportar las dependencias de aws
+- **En Visual Studio:** Asegurate de restaurar los nuggets necesarios para soportar las dependencias de aws
+
+3. **Configurar la Base de Datos:**
+
+- **Configurar Program.cs:** Asegúrate de que SQL Server esté configurado y disponible. Actualiza las configuraciones de conexión en el archivo program.cs para que sean compatibles con tu instancia de SQL Server.
+
+4. **Ejecutar la Aplicación:**
+
+- **dotnet run:** Al ejecutar la aplicación, se abrirá automáticamente una ventana del navegador con Swagger como la página por defecto. Swagger proporciona una interfaz gráfica para probar los endpoints de la API.
    
 ## Contribuciones
 
