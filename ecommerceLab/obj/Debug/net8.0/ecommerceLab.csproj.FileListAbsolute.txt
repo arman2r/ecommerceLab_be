@@ -74,3 +74,4 @@ C:\prueba_linktic\backend\ecommerceLab\ecommerceLab\bin\Debug\net8.0\Newtonsoft.
 C:\prueba_linktic\backend\ecommerceLab\ecommerceLab\bin\Debug\net8.0\AWSSDK.Core.dll
 C:\prueba_linktic\backend\ecommerceLab\ecommerceLab\bin\Debug\net8.0\AWSSDK.Extensions.NETCore.Setup.dll
 C:\prueba_linktic\backend\ecommerceLab\ecommerceLab\bin\Debug\net8.0\AWSSDK.S3.dll
+C:\prueba_linktic\backend\ecommerceLab\ecommerceLab\obj\Debug\net8.0\ecommerceLab.sourcelink.json

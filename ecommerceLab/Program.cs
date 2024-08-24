@@ -73,8 +73,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Storelab API V1");
-        c.RoutePrefix = string.Empty;
+        c.RoutePrefix = "swagger";
     });
+}
+else
+{
+    // Redirige a /index.html en producción o en cualquier otro entorno.
+    app.UseDefaultFiles(); // Sirve archivos como index.html.
+    app.UseStaticFiles();  // Sirve archivos estáticos.
 }
 
 app.UseHttpsRedirection();
